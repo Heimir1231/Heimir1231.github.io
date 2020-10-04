@@ -1,0 +1,48 @@
+header, aside, article, main, footer, nav {
+    border: 1px solid black;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "h h h n n"
+    "h h h n n"
+    "v hae a a a"
+    "f f f f f";
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.haus{
+    grid-area: h;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.valstika{
+    text-align: left;
+    padding-right: 100px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area: n;
+    justify-content: center;
+    text-align: center;}
+.vinstri{
+    grid-area: v;
+    padding-top: 10px;}
+.adal{
+    grid-area: a;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;}
+.haegri{
+    grid-area: hae;
+    padding-top: 10px;}
+.fotur{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: f;
+    justify-content: center;
+    text-align: center;}}
