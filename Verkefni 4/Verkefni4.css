@@ -1,0 +1,87 @@
+body{
+    background:burlywood;
+    display: grid;
+    grid-template-areas: 
+    "n n n n n"
+    "h h h h h"
+    "m m m m m"
+    "a a a a a"
+    "art art art art art"
+    "f f f f f";
+    margin: 30px;
+    padding: 15px;
+}
+
+
+@media screen and (min-width: 768px){
+    body{
+    background:burlywood;
+    display: grid;
+    grid-template-areas: 
+    "n n n n n"
+    "h h h h h"
+    "a art m m m"
+    "f f f f f";
+    margin: 30px;
+    padding: 15px;
+    }
+}
+@media screen and (min-width: 960px){
+    body{
+    background:burlywood;
+    display: grid;
+    grid-template-areas: 
+    "n n n n n"
+    "h h h h h"
+    "a m m m art"
+    "f f f f f";
+    margin: 30px;
+    padding: 15px;
+    }
+}
+.haus{
+    background: lightcoral;
+    grid-area: h;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.nav{
+    grid-area: n;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px solid blue;
+    justify-content: center;
+    text-align: center;
+    background: yellow;    
+}
+
+.main{
+    grid-area: m;
+    background: lightseagreen;
+}
+.article{
+    grid-area: art;
+    background: yellow;
+}
+.aside{
+    grid-area: a;
+    background: yellow;
+}
+.fotur{
+    grid-area: f;
+    background: lightskyblue;
+}
+.span{
+    font-size: large;
+    font-weight: bold;
+}
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color:red;
+    background: black;
+}
