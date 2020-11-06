@@ -1,0 +1,65 @@
+body{
+    background: white;
+    border: 2px dashed navy;
+    padding: 10px;
+    margin: 10px;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color:blue;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-size: 200%;
+}
+h2{
+    color: green;
+    font-size: 170%;
+}
+h3{
+    color: blue;
+    font-size: 150%;
+}
+h4{
+    color: cyan;
+    font-size: 100%;
+}
+h5{
+    color: rgb(red, green, blue);
+    font-size: 75%;
+}
+h6{
+    color: purple;
+    font-size: 50%;
+}
+.skaletur{
+    font-style: italic;
+    color: blue;
+}
+.imagine {
+    color: red;
+    font-weight: bold;
+}
+.list {
+    color: green;
+}
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.Elvis{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 150%;
+}
+.Elvis-text{
+    font-style: italic;
+}
