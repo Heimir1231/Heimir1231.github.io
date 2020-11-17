@@ -1,0 +1,131 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body section{
+    margin: -10px;
+}
+
+
+.A{
+    background: linear-gradient( white, lightblue, lightblue, cyan );
+    height: 100vh;
+}
+.B{
+    background: linear-gradient( cyan, blue, navy, black);
+    height: 100vh;
+    color: whitesmoke;
+}
+.C{
+    background: #9bb5d2 ;
+    height: 20vh;
+
+}
+.hringur{
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    background: radial-gradient( rgb(255, 200, 80), rgb(255, 136, 32), rgb(200, 57, 0));
+    
+}
+ 
+.water{
+    text-align: center;
+    margin-top: 35%;
+    color: navy;
+    font-size: 350%;
+    font-family: lobster;
+    grid-area: w;
+}
+.con{
+    font-family: lobster;
+    font-size: 20px;
+    border-radius: 25%;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.titill{
+    grid-area: t;
+    justify-content: center;
+    text-align: center;
+    font-family: lobster;
+
+    font-size: 75px;
+}
+
+.fotur{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color:maroon;
+}
+a:link{
+    color: black;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cloud{ 
+   margin-top:70px;
+   width:350px;
+   height:120px;
+   background:#ECEFF1;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:100px;
+}
+.cloud::after, .cloud::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+}
+.cloud::after{
+    width:100px;
+    height:100px;
+    top:-220px;
+    left:50px;
+}
+.cloud::before{
+    width:180px;
+    height:180px;
+    top: -70px;
+    left:130px;
+}
+.tveir{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.fjorir{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 2em;
+    font-size: 4em;
+    text-align: center;
+    font-family: lobster;
+}
+.pila{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 2em;
+
+    background: white;
+    opacity: 85%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+}
