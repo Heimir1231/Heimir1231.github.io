@@ -76,6 +76,9 @@ a:hover{
     color:black;
     
 }
+a:link{
+    color:black;
+}
 .spotify{
     display: flex;
     margin: 20px;
@@ -185,6 +188,9 @@ a:hover{
     a:hover{
         color:black;
         
+    }
+    a:link{
+        color:black;
     }
     .spotify{
         display: flex;
@@ -297,6 +303,9 @@ a:hover{
     a:hover{
         color:black;
         
+    }
+    a:link{
+        color:black;
     }
     .spotify{
         display: flex;
